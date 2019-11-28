@@ -22,6 +22,14 @@ code {
   height: 100%;
 }
 
+.navlinks {
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+.navlinks:a {
+  text-decoration: none;
+}
 
 html, body, #app, #app>div {
   height: 100%
