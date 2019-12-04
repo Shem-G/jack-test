@@ -5,7 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #f6f6f4;
+  background-color: #f6f6f4 !important;
+  color: #414141 !important;
 }
 
 code {
@@ -27,8 +28,24 @@ code {
   text-decoration: none;
 }
 
-.navlinks:a {
+.navlinks a {
   text-decoration: none;
+
+}
+
+.navlinks a:hover {
+  color: #F20000;
+}
+
+.intro {
+  font-size: 1.3em !important;
+}
+
+.btn-index {
+  background-color: #e6deca !important;
+  border: 0px !important;
+  color: #000 !important;
+  border-radius: 0 !important;
 }
 
 html, body, #app, #app>div {
