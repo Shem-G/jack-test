@@ -9,8 +9,8 @@ class Navbar extends Component {
   render() {
     return (
       <ResponsiveMenu
-        menuOpenButton={<IoIosArrowDown />}
-        menuCloseButton={<IoIosArrowUp />}
+        menuOpenButton={<IoIosArrowDown className="mobile-menu-button" />}
+        menuCloseButton={<IoIosArrowUp className="mobile-menu-button" />}
         changeMenuOn="701px"
         largeMenuClassName="large-menu list-group list-group-horizontal"
         smallMenuClassName="small-menu"

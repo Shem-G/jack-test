@@ -3,8 +3,9 @@ import jack from '../images/jack.png'
 
 export default function WhoAmI() {
     return (
-        <div className="row mx-3 text-left">
-            <div className="col">
+        <div className="row mt-3">
+            
+            <div className="col-sm-12 col-md-8 float-md-left text-left">
             <p>
             <h1>Who am I?</h1>
             <p>Good question! Who are any of us really?</p>
@@ -16,10 +17,12 @@ export default function WhoAmI() {
             <p>Also, feel free to shoot me an email if you like.</p>
             </p>
             </div>
-            <div className="col-3">
-                <img src={jack} alt="Jack Owen"></img>
-                <p>This is a picture of a younger, better me! To say I look exactly the same would be a stretch... but you get the idea!</p>
+            <div className="col-sm-12 col-md-4 mb-3 order-first order-md-last mx-auto float-md-right">
+                <img src={jack} alt="Jack Owen" className="mx-auto"></img>
+                <p className="d-none d-md-block w-75 text-align-left mx-auto text-secondary">This is a picture of a younger, better me! To say I look exactly the same would be a stretch... but you get the idea!</p>
             </div>
+            
+            
         </div>
         
     )
