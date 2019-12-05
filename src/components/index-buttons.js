@@ -4,10 +4,12 @@ import Button from "react-bootstrap/Button"
 
 const InButtons = props => {
     return (
-<div className="row">
-    <div className="col align-self-center">
-        <Button className="btn px-5 mx-5 btn-index">Writing</Button>
-        <Button className="btn px-5 mx-5 btn-index">Articles</Button>
+<div className="row justify-content-center">
+    <div className="col p-0">
+        <Button className="btn btn-index">Writing</Button>
+        </div>
+        <div className="col p-0">
+        <Button className="btn btn-index">Articles</Button>
         </div>
 
 </div>
