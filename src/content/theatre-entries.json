@@ -1,0 +1,29 @@
+{
+    "theatreentries": [
+       {
+          "id": "far-away",
+          "image": "theatre-faraway.png",
+          "content": "War, Paranoia and... hats.<br />​Caryl Churchill's Far Away follows the life of a girl living in a world in which war is constant and ubiquitous. The play invites the audience to question at what point does one become desensitised to atrocity, how can you protect yourself when everything is dangerous and what is real when everything is abstract?"
+       },
+       {
+        "id": "third-arrangement",
+        "image": "../images.thirdarrangement.png",
+        "content": "Third Arrangement is an Internationally award winning theatre ensemble led by Andrzej and Teresa Welminski, original members of Tadeusz Kantor's Cricot 2."
+     },
+     {
+        "id": "the-same-but-different",
+        "image": "../images/samebutdifferent.png",
+        "content": "The same as everything you've ever seen... but different.<br />The Same But Different is a theatre company that uses elements of dance, post-modern performance and multi-media to create original work that highlights the absurdity of how people choose to kill time between birth and death."
+     },
+     {
+        "id": "princess-mononoke",
+        "image": "../images/princessmononoke.png",
+        "content": "In 2013 Whole Hog Theatre Company staged the world's first theatrical adaptation of Princess Mononoke to critical acclaim in London and Tokyo. The UK production sold out in four and a half hours, nine months in advance, before transferring to Tokyo where it played to over 10,000 people, and featured at Nico Nico Cho Party 2 – watched live by 30 million people online, and 5000 in-house."
+     },
+     {
+        "id": "clever-pants",
+        "image": "../images/cleverpants.png",
+        "content": "Interactive theatre in 110% English!<br />CLEVER PANTS theatre company delivers dynamic, educational and utterly mad shows all over Spain and Portugal. They perform in big cities and tiny villages, in gymnasiums, dining halls, large classrooms... and sometimes even theatres!<br />The most enjoyable job I've ever had, bar none!"
+     }
+    ]
+ }

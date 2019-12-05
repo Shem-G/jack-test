@@ -3,7 +3,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/header';
 import Homepage from './pages/index';
-import WhoAmI from './pages/whoami';
+import WhoAmI from './pages/who-am-i';
 import InterestingThings from './pages/interesting-things';
 import Theatre from './pages/theatre';
 import WhatIWrite from './pages/what-i-write';

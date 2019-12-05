@@ -4,7 +4,7 @@ export default function WhatIWrite() {
     return (
         <div className="row mx-3 mb-3">
             
-            <div className="col-sm-12 col-md-8 float-md-left text-left">
+            <div className="col-sm-12 float-md-left text-left">
             <p>
             <h1>Things I've written</h1>
             <h5>Surprise! This whole website is actually a ploy to get you interested in my writing! And it worked, I tell you! It worked! Mwa ha ha ha - ah-hem...</h5>
