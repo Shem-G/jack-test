@@ -19,6 +19,19 @@ code {
   border-bottom: 0.25em solid #c7c7c7;
 }
 
+.menu-list{
+  list-style-type: none;
+}
+
+.large-menu li{
+  display: inline;
+}
+
+
+.large-menu {
+  display: inline;
+}
+
 .main-content {
   height: 100%;
 }

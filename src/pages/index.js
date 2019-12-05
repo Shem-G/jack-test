@@ -3,7 +3,7 @@ import IndexButtons from '../components/index-buttons'
 
 export default function HomePage() {
     return (
-        <div className="row w-75 pt-3 text-left index">
+        <div className="row mx-3 text-left index">
             <p>
             <h1>Welcome!</h1>
             <p>My name is Jack Owen. I'm an aspiring writer of middle-grade and Young Adult fiction.</p>
