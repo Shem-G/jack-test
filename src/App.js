@@ -4,7 +4,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/header';
 import Homepage from './pages/index';
 import WhoAmI from './pages/whoami';
-import { Route, Switch } from 'react-router-dom'
+import InterestingThings from './pages/interesting-things';
+import Theatre from './pages/theatre';
+import WhatIWrite from './pages/what-i-write';
+import { Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
@@ -14,6 +17,10 @@ function App() {
         <Switch>
           <Route exact path="/" component={Homepage} />
           <Route path="/who-am-i" component={WhoAmI} />
+          <Route path="/interesting-things" component={InterestingThings} />
+          <Route path="/theatre" component={Theatre} />
+          <Route path="/what-i-write" component={WhatIWrite} />
+
         </Switch>
       
       </div>

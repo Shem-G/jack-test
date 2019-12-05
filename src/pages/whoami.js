@@ -3,7 +3,7 @@ import jack from '../images/jack.png'
 
 export default function WhoAmI() {
     return (
-        <div className="row mt-3">
+        <div className="row mx-3 mb-3">
             
             <div className="col-sm-12 col-md-8 float-md-left text-left">
             <p>
@@ -19,7 +19,7 @@ export default function WhoAmI() {
             </div>
             <div className="col-sm-12 col-md-4 mb-3 order-first order-md-last mx-auto float-md-right">
                 <img src={jack} alt="Jack Owen" className="mx-auto"></img>
-                <p className="d-none d-md-block w-75 text-align-left mx-auto text-secondary">This is a picture of a younger, better me! To say I look exactly the same would be a stretch... but you get the idea!</p>
+                <p className="d-none d-md-block w-75 text-left mx-auto text-secondary">This is a picture of a younger, better me! To say I look exactly the same would be a stretch... but you get the idea!</p>
             </div>
             
             
