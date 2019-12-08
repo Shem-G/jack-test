@@ -6,7 +6,6 @@ export default function HomePage() {
     return (
         <div>
         <div className="row mx-3 mb-3 text-left index">
-            <p>
             <h1>Welcome!</h1>
             <p>My name is Jack Owen. I'm an aspiring writer of middle-grade and Young Adult fiction.</p>
             <p>When writing I take inspiration from many, many different places and have learnt many interesting things.
@@ -16,7 +15,6 @@ export default function HomePage() {
             <p>Later I'll add some stuff on time travel & scientific theory from the research I did on my second book The Day Time Was Lost and also a section on animals & nature.</p>
                 
             <h4>Be sure to check out the <Link to="/what-i-write">What I Write</Link> section to learn more about my books!</h4>
-            </p>
             
         </div>
         <IndexButtons />

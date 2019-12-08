@@ -21,6 +21,7 @@ class Navbar extends Component {
             <li className="px-lg-5"><Link to="/interesting-things"><Button variant="link">Interesting things</Button></Link></li>
             <li className="px-lg-5"><Link to="/theatre"><Button variant="link">Theatre</Button></Link></li>
             <li className="px-lg-5"><Link to="/what-i-write"><Button variant="link">What I write</Button></Link></li>
+            <li className="px-lg-5"><Link to="/blog"><Button variant="link">Blog</Button></Link></li>
             </ul>
         }
       />
