@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom'
 
 const InButtons = props => {
     return (
-<div className="row justify-content-center">
-    <div className="col p-0">
+<div className="row justify-content-center py-3">
+    <div className="col">
         <Link to="/what-i-write"><Button className="btn btn-index">Writing</Button></Link>
         </div>
-        <div className="col p-0">
+        <div className="col">
         <Link to="/articles"><Button className="btn btn-index">Articles</Button></Link>
         </div>
 

@@ -2,9 +2,7 @@ import React from 'react'
 
 export default function InterestingThings() {
     return (
-        <div className="row mx-3 mb-3">
-            
-            <div className="col-sm-12 float-md-left text-left">
+        <div className="row text-left mx-3">
             <p>
             <h1>Interesting things</h1>
             <h5>When writing I take inspiration from many, many different places and have learnt many interesting things.
@@ -14,9 +12,5 @@ export default function InterestingThings() {
             <p>Later on I will add a section on animals & nature.​</p>
             </p>
             </div>
-            
-            
-        </div>
-        
     )
 }

@@ -4,8 +4,7 @@ import { Link } from 'react-router-dom'
 
 export default function HomePage() {
     return (
-        <div>
-            <div className="row mx-3 mb-3 text-left index">
+        <div className="row text-left mx-3">
                 <h1>Welcome!</h1>
                 <div>
                 <p>My name is Jack Owen. I'm an aspiring writer of middle-grade and Young Adult fiction.</p>
@@ -17,9 +16,8 @@ export default function HomePage() {
 
                 <h4>Be sure to check out the <Link to="/what-i-write">What I Write</Link> section to learn more about my books!</h4>
                 </div>
-            </div>
+                
             <IndexButtons />
-        </div>
-
+            </div>
     )
 }
